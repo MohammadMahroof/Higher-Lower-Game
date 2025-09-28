@@ -2,6 +2,21 @@
 
 A fun and interactive text-based Python game where players guess which account has more followers. Inspired by popular social media follower comparison games, this project demonstrates Python basics including loops, functions, data handling, and user input.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Code Highlights](#code-highlights)
+- [Contributing](#contributing)
+- [FAQs](#faqs)
+- [Project Status](#project-status)
+- [License](#license)
+- [Author](#author)
+
+
 ## Features
 - Randomly selects two accounts for comparison from a dataset
 - Displays formatted account information (name, description, country)
@@ -39,6 +54,20 @@ python main.py
 Follow the on-screen instructions to play the game. Type "A" or "B" to guess which account has the higher follower count.
 ```
 
+
+## Project Structure
+
+| File/Folder         | Description                                         |
+|---------------------|-----------------------------------------------------|
+| `main.py`           | Main game script to run the game                     |
+| `gamedata.py`       | Contains the dataset of accounts used for comparison |
+| `art.py`            | Contains ASCII art such as game logos                 |
+| `README.md`         | Project documentation                                 |
+| `LICENSE`           | License file (e.g., MIT License)                      |
+| `.gitignore`        | Git ignore rules for Python projects                  |
+| `requirements.txt`  | (Optional) Python dependencies list                   |
+
+
 ## Code Highlights
 - ```compare_followers(a, b)```: Compares follower counts between two accounts.
 - ```format_data(account):``` Returns formatted account info for display.
@@ -47,6 +76,31 @@ Follow the on-screen instructions to play the game. Type "A" or "B" to guess whi
 
 ## Contributing
 Feel free to fork this repo and submit pull requests to improve the game with new features, data, or enhancements!
+
+
+## FAQs
+
+**Q: What data source is used for the accounts?**  
+A: The accounts come from a predefined list in the game data included in the project.
+
+**Q: Can I add more accounts to the game?**  
+A: Yes, you can add additional accounts to the data list within the project files.
+
+**Q: Does this game support a graphical interface?**  
+A: Currently, it is a text-based game but could be extended with libraries like Pygame.
+
+**Q: What Python version is required?**  
+A: Python 3.x is required.
+
+
+## Project Status
+
+This project is stable and fully functional as a basic text-based game. Future enhancements may include adding more data, improving user input handling, and adding a graphical user interface.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Author
